@@ -1,0 +1,35 @@
+import type { SeedRow } from './seed-format';
+
+/** Bộ 3 — 30 câu: hành động học sinh, gia đình, nhà trường và bối cảnh Huế. */
+export const SET_3_ROWS: SeedRow[] = [
+  ['Thành phố Huế thường chịu ảnh hưởng của loại thiên tai nào vào cuối năm?', 'Bão và mưa lớn gây lũ lụt', 'Hạn hán sa mạc', 'Bão tuyết', 'Núi lửa', 0, 'Huế thường hứng bão và mưa lớn gây lũ lụt vào cuối năm.', 'Nhận thức bão lụt', 'de'],
+  ['Sông Hương chảy qua thành phố nào?', 'Huế', 'Hà Nội', 'Đà Nẵng', 'Cần Thơ', 0, 'Sông Hương chảy qua thành phố Huế.', 'Hành động học sinh', 'de'],
+  ['Học sinh nên làm gì khi thấy bạn vứt rác ra sân trường?', 'Nhắc nhở nhẹ nhàng và nhặt rác bỏ đúng nơi', 'Cười chê', 'Vứt rác theo', 'Im lặng hoàn toàn', 0, 'Nhắc nhở nhẹ nhàng và cùng nhặt rác giúp giữ trường sạch.', 'Hành động học sinh', 'de'],
+  ['Gia đình có thể tiết kiệm điện bằng cách nào?', 'Dùng đèn tiết kiệm điện và tắt khi không dùng', 'Bật tất cả thiết bị', 'Mở tủ lạnh thường xuyên', 'Để điều hòa 18°C cả ngày', 0, 'Đèn tiết kiệm và tắt khi không dùng giúp tiết kiệm điện.', 'Tiết kiệm tài nguyên', 'de'],
+  ['Nhà trường có thể làm gì để giáo dục lối sống xanh?', 'Tổ chức hoạt động môi trường và câu lạc bộ xanh', 'Tăng rác thải', 'Đốt rác trong sân', 'Bịt cống thoát nước', 0, 'Hoạt động môi trường giúp giáo dục lối sống xanh cho học sinh.', 'Hành động học sinh', 'vua'],
+  ['Khi nước lũ dâng cao, nên làm gì với đồ đạc quý?', 'Di chuyển lên vị trí cao, khô ráo', 'Để dưới sàn', 'Vứt ra sân', 'Kê lại chỗ cũ', 0, 'Di chuyển đồ quý lên cao giúp tránh hư hỏng do ngập.', 'Ứng phó thiên tai', 'de'],
+  ['Cách nào giúp giảm ô nhiễm từ khí thải xe cộ?', 'Đi xe đạp, đi bộ hoặc dùng phương tiện công cộng', 'Đi xe máy nhiều hơn', 'Đốt lốp xe', 'Đổ dầu ra đường', 0, 'Đi xe đạp, đi bộ hoặc công cộng giúp giảm khí thải.', 'Sống xanh', 'de'],
+  ['Vì sao nên dùng sản phẩm có thể tái chế?', 'Để giảm rác thải và tiết kiệm tài nguyên', 'Để đắt hơn', 'Để nặng hơn', 'Để khó dùng hơn', 0, 'Sản phẩm tái chế giúp giảm rác và tiết kiệm tài nguyên.', 'Tiết kiệm tài nguyên', 'de'],
+  ['Trong gia đình, ai có thể tham gia bảo vệ môi trường?', 'Mọi thành viên', 'Chỉ người lớn', 'Chỉ trẻ em', 'Chỉ ông bà', 0, 'Mọi thành viên trong gia đình đều có thể tham gia bảo vệ môi trường.', 'Hành động học sinh', 'de'],
+  ['Khi thấy cống thoát nước bị tắc, nên làm gì?', 'Báo người lớn hoặc cơ quan chức năng để xử lý', 'Đổ thêm rác', 'Bịt kín', 'Kệ cho tắc', 0, 'Báo để xử lý giúp tránh ngập khi mưa lớn.', 'Rác thải', 'vua'],
+  ['Vì sao nên sử dụng nước mưa để tưới cây?', 'Tiết kiệm nước sạch và tận dụng tài nguyên tự nhiên', 'Vì nước mưa bẩn', 'Vì cây không thích nước mưa', 'Vì tốn tiền', 0, 'Dùng nước mưa tưới cây giúp tiết kiệm nước sạch.', 'Tiết kiệm tài nguyên', 'de'],
+  ['Đâu là hành vi nên khuyến khích ở nơi công cộng?', 'Bỏ rác đúng nơi quy định', 'Vứt rác xuống hồ', 'Khạc nhổ bừa bãi', 'Xả rác ra đường', 0, 'Bỏ rác đúng nơi quy định giữ nơi công cộng sạch đẹp.', 'Hành động học sinh', 'de'],
+  ['Khi bão đến, nếu nhà không an toàn, nên làm gì?', 'Di chuyển đến nơi trú ẩn an toàn', 'Ở lại bằng mọi giá', 'Ra ngoài đi dạo', 'Mở cửa cho mát', 0, 'Di chuyển đến nơi trú ẩn an toàn bảo vệ tính mạng.', 'Ứng phó thiên tai', 'vua'],
+  ['Cách nhận biết tin bão đáng tin cậy là gì?', 'Thông tin từ cơ quan khí tượng thủy văn và chỉ đạo địa phương', 'Tin đồn', 'Tin nhắn chuyển tiếp', 'Bài đăng không rõ nguồn', 0, 'Tin từ cơ quan chức năng là nguồn đáng tin cậy.', 'Nhận thức bão lụt', 'vua'],
+  ['Vì sao cần giữ vệ sinh sau khi lũ rút?', 'Để phòng tránh dịch bệnh', 'Để nhà đẹp', 'Để có việc làm', 'Để mát hơn', 0, 'Vệ sinh sau lũ giúp phòng tránh dịch bệnh.', 'Ứng phó thiên tai', 'vua'],
+  ['Học sinh có thể tiết kiệm giấy bằng cách nào?', 'Dùng cả hai mặt giấy và tận dụng giấy nháp', 'Vứt giấy bừa bãi', 'Xé giấy chơi', 'Dùng thật nhiều giấy', 0, 'Dùng hai mặt giấy và tận dụng nháp giúp tiết kiệm.', 'Tiết kiệm tài nguyên', 'de'],
+  ['Điều gì giúp bảo vệ rừng ngập mặn ven biển?', 'Không chặt phá và trồng thêm cây', 'Chặt cây lấy gỗ', 'Lấp rừng làm ao', 'Đốt rừng', 0, 'Không chặt phá và trồng thêm cây giúp bảo vệ rừng ngập mặn.', 'Sống xanh', 'vua'],
+  ['Khi có mưa lớn kéo dài, nên theo dõi điều gì?', 'Cảnh báo lũ và hướng dẫn của chính quyền', 'Tin giải trí', 'Trò chơi điện tử', 'Quảng cáo', 0, 'Theo dõi cảnh báo lũ và hướng dẫn chính quyền để an toàn.', 'Nhận thức bão lụt', 'vua'],
+  ['Nhà trường nên xử lý rác thực phẩm thế nào?', 'Thu gom riêng để ủ hoặc xử lý phù hợp', 'Đổ xuống sông', 'Vứt ra sân', 'Đốt trong lớp', 0, 'Thu gom riêng rác thực phẩm giúp xử lý hợp vệ sinh.', 'Rác thải', 'vua'],
+  ['Vì sao nên tránh lãng phí thức ăn?', 'Tiết kiệm tài nguyên và giảm rác thải', 'Vì thức ăn đắt', 'Vì ăn ít tốt', 'Vì để tủ lạnh', 0, 'Tránh lãng phí thức ăn giúp tiết kiệm tài nguyên và giảm rác.', 'Tiết kiệm tài nguyên', 'de'],
+  ['Khi đi đường gặp nước ngập, dấu hiệu nguy hiểm cần tránh là gì?', 'Dòng nước chảy xiết, nắp cống mở', 'Nước trong', 'Đường vắng', 'Nước nông', 0, 'Dòng nước xiết và nắp cống mở rất nguy hiểm khi đi qua vùng ngập.', 'Ứng phó thiên tai', 'vua'],
+  ['Cách nào giúp giảm rác thải điện tử?', 'Sửa chữa và tái sử dụng thiết bị khi có thể', 'Vứt thiết bị ra môi trường', 'Chôn thiết bị', 'Đốt thiết bị cũ', 0, 'Sửa chữa và tái sử dụng giúp giảm rác thải điện tử.', 'Tiết kiệm tài nguyên', 'kho'],
+  ['Vì sao học sinh nên tham gia các hoạt động trồng cây?', 'Để góp phần bảo vệ môi trường và tạo cảnh quan', 'Để được nghỉ học', 'Để chụp ảnh', 'Để bán cây', 0, 'Trồng cây góp phần bảo vệ môi trường và cải tạo cảnh quan.', 'Hành động học sinh', 'de'],
+  ['Đâu là cách tiết kiệm nước khi đánh răng?', 'Lấy cốc nước và khóa vòi khi không dùng', 'Mở vòi liên tục', 'Để nước tràn', 'Xả nước lãng phí', 0, 'Lấy cốc nước và khóa vòi giúp tiết kiệm nước.', 'Tiết kiệm tài nguyên', 'de'],
+  ['Khi phát hiện tin sai về bão trên mạng, em nên làm gì?', 'Không chia sẻ và kiểm tra thông tin chính thống', 'Chia sẻ ngay', 'Thêm thắt chi tiết', 'Gửi cho nhiều người', 0, 'Không chia sẻ tin sai và kiểm tra thông tin chính thống.', 'Nhận thức bão lụt', 'vua'],
+  ['Vì sao cần phân loại rác trước khi bỏ vào thùng?', 'Để tái chế hiệu quả và giảm ô nhiễm', 'Để thùng nặng hơn', 'Để tốn thời gian', 'Để rác có mùi', 0, 'Phân loại rác giúp tái chế hiệu quả và giảm ô nhiễm.', 'Rác thải', 'vua'],
+  ['Hành động nào tốt cho môi trường khi mua đồ ăn ngoài?', 'Mang hộp đựng cá nhân thay vì hộp nhựa dùng một lần', 'Yêu cầu thêm hộp nhựa', 'Dùng nhiều túi ni lông', 'Vứt hộp ra đường', 0, 'Mang hộp cá nhân giúp giảm rác nhựa dùng một lần.', 'Sống xanh', 'de'],
+  ['Điều nào giúp giảm ngập khi mưa lớn ở khu dân cư?', 'Không lấp ao hồ và giữ hệ thống thoát nước', 'Lấp kín ao hồ', 'Đổ rác xuống cống', 'Xây tường chắn nước', 0, 'Giữ ao hồ và hệ thống thoát nước giúp giảm ngập.', 'Rác thải', 'kho'],
+  ['Cách nào giúp lan tỏa lối sống xanh trong cộng đồng?', 'Tuyên truyền, làm gương và tham gia hoạt động chung', 'Vứt rác bừa bãi', 'Đốt rác', 'Lãng phí tài nguyên', 0, 'Tuyên truyền, làm gương và tham gia hoạt động giúp lan tỏa lối sống xanh.', 'Hành động học sinh', 'vua'],
+];
+
