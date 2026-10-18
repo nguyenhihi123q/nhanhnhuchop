@@ -106,7 +106,10 @@ function StageRunner({ session }: { session: Session }) {
     let cancelled = false;
     (async () => {
       try {
-        const allDone = state.rounds.filter((r) => r.counted).length >= session.config.teams.length;
+        const completedTeamIds = new Set(
+          state.rounds.filter((round) => round.counted).map((round) => round.teamId),
+        );
+        const allDone = session.config.teams.every((team) => completedTeamIds.has(team.id));
         const next: Session = {
           ...session,
           rounds: state.rounds,

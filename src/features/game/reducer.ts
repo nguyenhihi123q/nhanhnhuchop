@@ -290,7 +290,11 @@ export function engineReducer(state: EngineState, action: EngineAction): EngineS
 
     case 'ACK_ROUND_RESULT': {
       if (state.phase !== 'roundResult') return state;
-      return { ...state, phase: 'finalResult', message: null };
+      const completedTeamIds = new Set(
+        state.rounds.filter((round) => round.counted).map((round) => round.teamId),
+      );
+      const allTeamsCompleted = state.config.teams.every((team) => completedTeamIds.has(team.id));
+      return { ...state, phase: allTeamsCompleted ? 'finalResult' : 'ready', message: null };
     }
 
     case 'REPLAY_ROUND': {
