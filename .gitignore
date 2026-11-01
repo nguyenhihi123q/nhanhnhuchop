@@ -11,3 +11,4 @@ dist-ssr
 Thumbs.db
 npm-debug.log*
 coverage
+.env*
