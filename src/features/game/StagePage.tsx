@@ -312,6 +312,7 @@ function StageRunner({ session }: { session: Session }) {
 
   return (
     <div className="stage">
+      <header className="stage-brand"><strong>Nhanh như chớp</strong><span>Vòng tinh hoa</span></header>
       <div className="stage__top">
         <span className="stage__team">
           <span className="team-dot" style={{ background: teamHex(state.team) }} />

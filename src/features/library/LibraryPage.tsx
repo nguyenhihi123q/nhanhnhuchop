@@ -145,7 +145,8 @@ export function LibraryPage() {
       <div className="container">
         <div className="page-head">
           <div>
-            <h1>Thư viện câu hỏi</h1>
+            <h1 className="game-title">Nhanh như chớp</h1>
+            <p className="game-subtitle">VÒNG TINH HOA · THƯ VIỆN CÂU HỎI</p>
             <p>Quản lý bộ câu hỏi, nhập từ Excel và bắt đầu phiên thi mới.</p>
           </div>
           <div className="actions-inline">
